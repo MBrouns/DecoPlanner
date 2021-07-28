@@ -1,5 +1,5 @@
 from deco.gas import Gas
-from deco.utils import Pressure, Depth, depth_for
+from deco.utils import Depth, depth_for
 
 
 class Compartment:

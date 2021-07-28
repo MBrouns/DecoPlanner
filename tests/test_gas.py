@@ -10,6 +10,7 @@ def test_gas_density():
     assert Gas(12, 35).density_at(50) == pytest.approx(5.38)
     assert Gas(18, 35).density_at(61) == pytest.approx(6.44)
 
+
 def test_pn2():
     assert AIR.ppn2_at(0) == 0.79
     assert AIR.ppn2_at(30) == 3.16
