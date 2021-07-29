@@ -30,8 +30,8 @@ jobs:
       run: |
         flake8
     - name: typing check
-        run: |
-          mypy src
+      run: |
+        mypy src
     - name: Test with pytest
       run: |
         pytest

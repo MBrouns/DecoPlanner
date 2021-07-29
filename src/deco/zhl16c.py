@@ -54,6 +54,7 @@ class Compartment:
 class ZH_L16C:
     def __init__(self):
         # TODO: Verify the coefficients
+        # Source: https://www.scubaboard.com/community/threads/multi-deco-vs-baltic-matching-and-use.593059/page-2
         self._compartments = [
             Compartment(4,    1.2599, 0.5050, 1.51,   1.7424, 0.4245),
             Compartment(8,    1.0000, 0.6514, 3.02,   1.3830, 0.5747),
